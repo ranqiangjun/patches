@@ -1,0 +1,12 @@
+diff --git a/sparkpost.info b/sparkpost.info
+index efa84f0..d92c439 100644
+--- a/sparkpost.info
++++ b/sparkpost.info
+@@ -6,7 +6,6 @@ package = Sparkpost
+ configure = admin/config/services/sparkpost
+ 
+ dependencies[] = mailsystem (>=2.x)
+-dependencies[] = composer_manager
+ 
+ files[] = includes/sparkpost.mail.inc
+ files[] = includes/sparkpost.message_wrapper.inc
